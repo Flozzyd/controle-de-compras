@@ -42,7 +42,7 @@ function addData(){
     let descricao = document.querySelector('#desc').value;
     let quantidade = document.querySelector('#quantidade').value;
     let preco = document.querySelector('#preco').value;
-    list.unshift({"desc":descricao, "quantidade":quantidade, "preco":preco});
+    list.unshift({"descricao":descricao, "quantidade":quantidade, "preco":preco});
     setList(list)   
 }
 
